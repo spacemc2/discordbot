@@ -49,4 +49,3 @@ async def on_message(message):
         await message.channel.send('te amo gordi!')
 
 client.run(TOKEN)
-dsdsscascasc
