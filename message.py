@@ -45,7 +45,6 @@ async def on_message(message):
     #happy birthday response
     elif 'happy birthday' in message.content.lower():
         await message.channel.send('Happy Birthday! 🎈🎉')
-    elif 'papito' in message.content.lower():
-        await message.channel.send('te amo gordi!')
+  
 
 client.run(TOKEN)
